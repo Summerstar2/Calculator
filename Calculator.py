@@ -31,6 +31,7 @@ else:
 while True:
     Again=str(input("Do you want to use the calculator again for the same numbers or for different numbers? (Yes/No) "))
     if Again=="No":
+        print ("Thanks for using this program!")    
         quit() 
     else: 
         New_numbers=str(input("Do you want to use different numbers this time? (Yes/No) "))
